@@ -8,9 +8,9 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> Optional[List[int]]:
         for i in range(len(nums)):
             for j in range(i, len(nums)):  # Inspect variables:  bug 1: As the target indexes should be distinct so i and j should not be the same -> j should not start at i
-                # for j in range(i + 1, len(nums)): 
+                # for j in range(i + 1, len(nums)):  # This is the correct code
                 if nums[i] - nums[j] == target:  # Watch the expression: bug 2: We should find the program by nums[i] + nums[j] instead of nums[i] - nums[j] -> watch the express can help you observe and debug
-                # if nums[i] + nums[j] == target:
+                # if nums[i] + nums[j] == target: # This is the correct code
                     return [i, j]
         return None
 
