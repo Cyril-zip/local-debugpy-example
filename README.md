@@ -50,3 +50,6 @@ VS Marketplace Link: https://marketplace.visualstudio.com/items?itemName=ms-pyth
 4. In terminal, execute `python3 example/two_sum.py`.
 5. In the sidebar, select `RUN AND DEBUG` > select `Python Debugger: Client listens to debugpy connection` > Click `Start Debugging` \ Click `F5`.
 6. Observe the execution flow and value of variables in the debugger
+
+## References
+[microsoft/debugpy](https://github.com/microsoft/debugpy)
